@@ -1,0 +1,30 @@
+
+/*.container-custom{
+	padding: 0;
+}*/
+.car-prev {
+    left: 75%;
+    bottom: 2% !important;
+}
+.car-next {
+    right: 10%; 
+    bottom: 2% !important;
+}
+.car-prev, .car-next {
+    top: 74%;
+    width: 6%;
+}
+
+.carIndicators {
+    right: 80%;
+    bottom: 50%;
+    display: block;
+    margin-left: 5%;
+}
+.carIndicators [data-bs-target] {
+	margin: 5px;
+    width: 20px;
+    height: 20px;
+    border: 0;
+    border-radius: 15px;
+}
